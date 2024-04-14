@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ok_lockless_queue", "okLocklessQueue.csproj", "{80BF24C9-C5B2-41B0-8BA3-FE2E8DB44985}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OkLocklessQueue", "OkLocklessQueue.csproj", "{80BF24C9-C5B2-41B0-8BA3-FE2E8DB44985}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
