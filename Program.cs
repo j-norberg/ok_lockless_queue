@@ -1,13 +1,12 @@
 ﻿using System.Collections.Concurrent;
 using System.Diagnostics;
-using okLockless;
 
 // try the lockless containers
 
 class Program
 {
-    static ConcurrentQueue<string> sQueue = new ConcurrentQueue<string>();
-//    static LocklessQueue<string> sQueue = new LocklessQueue<string>();
+//    static ConcurrentQueue<string> sQueue = new ConcurrentQueue<string>();
+    static OkLocklessQueue<string> sQueue = new OkLocklessQueue<string>();
 
     static List<string> CreateUniqueueStrings(int ind, int count)
     {
